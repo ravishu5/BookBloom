@@ -20,7 +20,7 @@ A step-by-step series of examples that tell you how to get a development environ
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/BookBloom.git
+   git clone https://github.com/ravishu5/BookBloom.git
 2. **Navigate to the project directory:**
    ```bash
    cd BookBloom
@@ -47,11 +47,9 @@ A step-by-step series of examples that tell you how to get a development environ
 - **Body** *(example)*:
   ```json
   {
-    "title": "Example Book Title",
-    "author": "Author Name",
-    "genre": ["Fiction", "Adventure"],
-    "isbn": "123-4567890123"
-  }
+    "title": "The Code Journey",
+    "author": "Lara Byte"
+  },
 
 ### Update Book
 
@@ -61,15 +59,5 @@ A step-by-step series of examples that tell you how to get a development environ
 - **Method:**
   - `PUT`
 
-- **URL Params**
-  - Required: `id=[string]` (ID of the book to update)
 
-- **Body** *(example)*:
-  ```json
-  {
-    "title": "Updated Book Title",
-    "author": "Updated Author Name",
-    "genre": ["Mystery", "Thriller"],
-    "isbn": "987-6543210987"
-  }
 
